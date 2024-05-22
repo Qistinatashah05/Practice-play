@@ -5,7 +5,7 @@ import pygame
 import threading
 
 # load BG music
-pygame.mixer.music.load('sounds/background audio.mp3')
+pygame.mixer.music.load('background audio.mp3')
 pygame.mixer.music.play(loops=-1, start=0.0) #repeat and where to start playing 
 pygame.mixer.music.set_volume(.2) #volume
 
