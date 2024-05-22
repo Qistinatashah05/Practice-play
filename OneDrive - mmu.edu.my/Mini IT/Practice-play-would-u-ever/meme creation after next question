@@ -1,0 +1,14 @@
+import tkinter as tk
+from tkinter import font
+from random import shuffle
+
+
+# Create the main application window
+root = tk.Tk()
+
+# Create an instance of the Quebizz class
+quiz_game = Quebizz(root)
+
+# Start the Tkinter event loop
+root.mainloop()
+
